@@ -1,23 +1,11 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import { getCssText, globalStyles } from "stitches.config"
+import { Html, Head, Main, NextScript } from "next/document";
+import { getCssText, globalStyles } from "@/stitches.config";
 
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata = {
-  title: 'Revolancer',
-  description: 'Revolancer is a free skill exchange platform for online professionals',
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function Document() {
   globalStyles();
   return (
-    <html lang="en">
-      <head>
+    <Html lang="en">
+      <Head>
         <style
           id="stitches"
           dangerouslySetInnerHTML={{ __html: getCssText() }}
@@ -63,8 +51,17 @@ export default function RootLayout({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0d253a" />
         <meta name="msapplication-TileColor" content="#0d253a" />
         <meta name="theme-color" content="#0d253a" />
-      </head>
-      <body className={inter.className}>{children}</body>
-    </html>
-  )
+        <link rel="dns-prefetch" href="https://api.revolancer.com" />
+        <link
+          rel="preconnect"
+          href="https://api.revolancer.com"
+          crossOrigin="anonymous"
+        />
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
 }
