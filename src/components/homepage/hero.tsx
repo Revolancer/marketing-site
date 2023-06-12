@@ -3,7 +3,6 @@ import { ColumnLayout, FullWidth } from "../layout/columns";
 import { Div } from "../layout/div";
 import { Flex } from "../layout/flex";
 import { H1, H4 } from "public/text/headings";
-import { P, SubtitleOne } from "public/text/text";
 import { Button } from "../navigation/button";
 
 export const Hero = () => {
