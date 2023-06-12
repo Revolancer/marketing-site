@@ -3,7 +3,11 @@ import { ColumnLayout, FullWidth } from "../layout/columns";
 import { Div } from "../layout/div";
 import { H5 } from "public/text/headings";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUsers } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCodeFork,
+  faImages,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 import { Flex } from "../layout/flex";
 import { P } from "public/text/text";
 
@@ -46,7 +50,7 @@ export const ExchangeShowcaseConnect = () => {
           </Div>
           <Div>
             <Flex css={{ alignItems: "center" }}>
-              <StyledIcon icon={faUsers} />
+              <StyledIcon icon={faImages} />
               <H5>Showcase Your Portfolio</H5>
             </Flex>
             <P>
@@ -56,7 +60,7 @@ export const ExchangeShowcaseConnect = () => {
           </Div>
           <Div>
             <Flex css={{ alignItems: "center" }}>
-              <StyledIcon icon={faUsers} />
+              <StyledIcon icon={faCodeFork} />
               <H5>Connect With Your Community</H5>
             </Flex>
             <P>
