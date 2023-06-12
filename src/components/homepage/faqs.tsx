@@ -49,7 +49,7 @@ export const FAQs = () => {
                 via the chat before choosing to work with them.
               </P>
               <P>
-                This allows you to ensure that you're hiring a skilled
+                This allows you to ensure that you&rsquo;re hiring a skilled
                 professional with relevant experience who can deliver quality
                 work.
               </P>
