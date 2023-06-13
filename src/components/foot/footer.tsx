@@ -24,15 +24,15 @@ const FootColumns = styled("div", {
   },
 });
 
+export const FooterElement = styled("footer", {
+  color: "$white",
+  backgroundColor: "$navy900",
+  paddingBlock: "$16",
+});
+
 export const Footer = () => {
   return (
-    <Div
-      css={{
-        color: "$white",
-        backgroundColor: "$navy900",
-        paddingBlock: "$16",
-      }}
-    >
+    <FooterElement>
       <ColumnLayout>
         <FullWidth>
           <FootColumns>
@@ -108,6 +108,6 @@ export const Footer = () => {
           </FootColumns>
         </FullWidth>
       </ColumnLayout>
-    </Div>
+    </FooterElement>
   );
 };

@@ -29,7 +29,7 @@ export default function FourOhFour() {
             <H1>404</H1>
             <H3>Page not found</H3>
             <P>Oops! The page you&rsquo;re looking for does not exist.</P>
-            <Button href="/" replace css={{ marginBlockStart: "$8" }}>
+            <Button href="/" replace css={{ marginBlock: "$12" }}>
               Go to homepage
             </Button>
           </Flex>
