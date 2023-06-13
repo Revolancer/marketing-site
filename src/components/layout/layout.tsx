@@ -15,8 +15,8 @@ export const PrimaryLayout = ({ children }: { children?: any }) => {
     <>
       <Head>
         <meta name="description">
-          Revolancer is a skills exchange platform for online digital
-          professionals.
+          Revolancer is the leading service exchange platform and freelance
+          marketplace for skilled online professionals.
         </meta>
       </Head>
       <Script

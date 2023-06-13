@@ -15,7 +15,9 @@ export default function Index() {
   return (
     <PrimaryLayout>
       <Head>
-        <title>Revolancer - Freelance Skills Exchange Platform</title>
+        <title>
+          Revolancer - Freelance Marketplace | Exchange services and skills
+        </title>
       </Head>
       <Hero />
       <SeenIn />
