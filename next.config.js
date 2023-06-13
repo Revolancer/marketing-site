@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  trailingSlash: true,
   rewrites: async () => {
     return {
       beforeFiles: [
@@ -14,6 +15,6 @@ const nextConfig = {
       ],
     };
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
