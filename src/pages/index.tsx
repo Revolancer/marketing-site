@@ -16,6 +16,7 @@ export default function Index() {
       <Hero />
       <SeenIn />
       <ExchangeShowcaseConnect />
+      <a id="works" href="#" />
       <Globe />
       <Grow />
       <Build />

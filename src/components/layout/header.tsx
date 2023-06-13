@@ -2,7 +2,7 @@ import { styled } from "@/stitches.config";
 import { Logo } from "./logo";
 import { ColumnLayout, FullWidth } from "./columns";
 import { Flex } from "./flex";
-import { Button, TertiaryButton } from "../navigation/button";
+import { Button, TertiaryButton, UnstyledLink } from "../navigation/button";
 
 const HeaderDiv = styled("header", {
   backgroundColor: "$navy900",
@@ -15,7 +15,9 @@ export const Header = () => {
       <ColumnLayout>
         <FullWidth>
           <Flex css={{ justifyContent: "space-between", alignItems: "center" }}>
-            <Logo expanded />
+            <UnstyledLink href="/">
+              <Logo expanded />
+            </UnstyledLink>
             <Flex gap={6} css={{ alignItems: "center" }}>
               <TertiaryButton
                 href="https://app.revolancer.com/login"
