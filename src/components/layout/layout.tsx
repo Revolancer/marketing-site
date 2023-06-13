@@ -14,10 +14,12 @@ export const PrimaryLayout = ({ children }: { children?: any }) => {
   return (
     <>
       <Head>
-        <meta name="description">
+        <meta
+          name="description"
+          content="
           Revolancer is the leading service exchange platform and freelance
-          marketplace for skilled online professionals.
-        </meta>
+          marketplace for skilled online professionals."
+        />
       </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-TRKYDYVYSJ"
