@@ -37,36 +37,19 @@ const FAQTrigger = styled("div", {
   },
 });
 
-const slideUp = keyframes({
-  from: {
-    height: "var(--radix-collapsible-content-height)",
-  },
-  to: {
-    height: 0,
-  },
-});
-
-const slideDown = keyframes({
-  from: {
-    height: 0,
-  },
-  to: {
-    height: "var(--radix-collapsible-content-height)",
-  },
+const open = keyframes({
+  from: { height: 0 },
+  to: { height: "var(--radix-collapsible-content-height)" },
 });
 
 const Content = styled(Collapsible.Content, {
+  overflow: "hidden",
   display: "flex",
   flexDirection: "column",
   gap: "$5",
   padding: "$1",
-  overflow: "hidden",
-
   '&[data-state="open"]': {
-    animation: `${slideDown} 300ms ease-out`,
-  },
-  '&[data-state="closed"]': {
-    animation: `${slideUp} 300ms ease-out`,
+    animation: `${open} 200ms ease-in-out forwards`,
   },
 });
 
