@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  trailingSlash: true,
   rewrites: async () => {
     return {
-      trailingSlash: true,
       beforeFiles: [
         {
           source: "/magazine",
