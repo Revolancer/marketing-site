@@ -10,7 +10,7 @@ const nextConfig = {
         },
         {
           source: "/magazine/:path*",
-          destination: "https://iris.rvinternals.com/:path*",
+          destination: "https://iris.rvinternals.com/:path*/",
         },
       ],
     };
