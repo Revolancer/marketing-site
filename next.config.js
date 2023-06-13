@@ -5,12 +5,12 @@ const nextConfig = {
     return {
       beforeFiles: [
         {
-          source: "/magazine",
-          destination: "https://iris.rvinternals.com",
+          source: "/magazine/",
+          destination: "https://iris.rvinternals.com/",
         },
         {
           source: "/magazine/:path*",
-          destination: "https://iris.rvinternals.com/:path*",
+          destination: "https://iris.rvinternals.com/:path*/",
         },
       ],
     };
