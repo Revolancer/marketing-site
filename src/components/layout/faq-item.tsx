@@ -47,7 +47,8 @@ const Content = styled(Collapsible.Content, {
   display: "flex",
   flexDirection: "column",
   gap: "$5",
-  padding: "$1",
+  paddingInline: "$1",
+  paddingBlockStart: "$3",
   '&[data-state="open"]': {
     animation: `${open} 200ms ease-in-out forwards`,
   },

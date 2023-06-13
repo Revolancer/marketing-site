@@ -10,7 +10,7 @@ export const FAQs = () => {
     <Div css={{ backgroundColor: "$neutral100" }}>
       <ColumnLayout>
         <FullWidth css={{ marginBlock: "$16" }}>
-          <Flex column gap={6}>
+          <Flex column gap={4}>
             <H3
               css={{
                 textAlign: "center",
