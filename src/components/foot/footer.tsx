@@ -17,6 +17,7 @@ import { P } from "public/text/text";
 const FootColumns = styled("div", {
   display: "grid",
   gridTemplateColumns: "1fr",
+  gap: "$6",
 
   "@md": {
     gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
@@ -79,25 +80,27 @@ export const Footer = () => {
               <P>&copy;2023 REVOLANCER LTD</P>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: "$bold" }}>Company</P>
+              <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Company</P>
               <UnstyledLink href="/">Homepage</UnstyledLink>
               <UnstyledLink href="/#works">How it works</UnstyledLink>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: "$bold" }}>Resources</P>
+              <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Resources</P>
               <UnstyledLink href="/magazine">Magazine</UnstyledLink>
               <UnstyledLink href="mailto:support@revolancer.com">
                 Support
               </UnstyledLink>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: "$bold" }}>Legal</P>
+              <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Legal</P>
               <UnstyledLink href="/terms">Terms &amp; Conditions</UnstyledLink>
               <UnstyledLink href="/privacy">Privacy Policy</UnstyledLink>
               <UnstyledLink href="/impressum">Impressum</UnstyledLink>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: "$bold" }}>Join Revolancer Today</P>
+              <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>
+                Join Revolancer Today
+              </P>
               <Button href="https://app.revolancer.com/register">
                 Join Now
               </Button>

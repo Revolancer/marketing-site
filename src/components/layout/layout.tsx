@@ -1,16 +1,21 @@
-import { styled } from "@/stitches.config";
-import { Flex } from "./flex";
-import { Logo } from "./logo";
-import { Button, TertiaryButton } from "../navigation/button";
 import { Header } from "./header";
 import { Footer } from "../foot/footer";
+import { styled } from "@/stitches.config";
+
+const Container = styled("div", {
+  minHeight: "100vh",
+  display: "grid",
+  gridTemplateRows: "auto 1fr auto",
+});
 
 export const PrimaryLayout = ({ children }: { children?: any }) => {
   return (
     <>
-      <Header />
-      {children}
-      <Footer />
+      <Container>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </Container>
     </>
   );
 };
