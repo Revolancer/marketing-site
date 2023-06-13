@@ -2,6 +2,7 @@
 const nextConfig = {
   rewrites: async () => {
     return {
+      trailingSlash: true,
       beforeFiles: [
         {
           source: "/magazine",
