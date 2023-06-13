@@ -1,3 +1,4 @@
+import { Title } from "@/components/head/title";
 import { Join } from "@/components/homepage/join";
 import { ColumnLayout, FullWidth } from "@/components/layout/columns";
 import { Flex } from "@/components/layout/flex";
@@ -8,6 +9,7 @@ import Link from "next/link";
 export default function FourOhFour() {
   return (
     <PrimaryLayout>
+      <Title>Privacy Policy</Title>
       <PageHeader title="Privacy Policy" />
       <ColumnLayout>
         <FullWidth>

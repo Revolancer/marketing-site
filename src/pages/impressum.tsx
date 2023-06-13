@@ -1,3 +1,4 @@
+import { Title } from "@/components/head/title";
 import { Join } from "@/components/homepage/join";
 import { ColumnLayout, FullWidth } from "@/components/layout/columns";
 import { Flex } from "@/components/layout/flex";
@@ -10,6 +11,7 @@ import { P } from "public/text/text";
 export default function FourOhFour() {
   return (
     <PrimaryLayout>
+      <Title>Impressum</Title>
       <PageHeader title="Impressum" />
       <ColumnLayout>
         <FullWidth>

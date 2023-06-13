@@ -1,3 +1,4 @@
+import { Title } from "@/components/head/title";
 import { Join } from "@/components/homepage/join";
 import { ColumnLayout, FullWidth } from "@/components/layout/columns";
 import { Flex } from "@/components/layout/flex";
@@ -8,10 +9,11 @@ import Link from "next/link";
 export default function FourOhFour() {
   return (
     <PrimaryLayout>
+      <Title>Terms &amp; Conditions</Title>
       <PageHeader title="Terms and Conditions" />
       <ColumnLayout>
         <FullWidth>
-          <Flex column css={{marginBlock: '$16'}}>
+          <Flex column css={{ marginBlock: "$16" }}>
             <p>
               <strong>TERMS AND CONDITIONS</strong>
             </p>

@@ -1,3 +1,4 @@
+import { Title } from "@/components/head/title";
 import { ColumnLayout, FullWidth } from "@/components/layout/columns";
 import { Flex } from "@/components/layout/flex";
 import { PrimaryLayout } from "@/components/layout/layout";
@@ -10,6 +11,7 @@ export default function FourOhFour() {
   return (
     <PrimaryLayout>
       <ColumnLayout>
+        <Title>404</Title>
         <FullWidth>
           <Flex
             column

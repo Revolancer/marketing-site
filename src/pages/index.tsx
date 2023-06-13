@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Apply } from "@/components/homepage/apply";
 import { Build } from "@/components/homepage/build";
 import { CommunityLeaders } from "@/components/homepage/community-leaders";
@@ -13,6 +14,9 @@ import { PrimaryLayout } from "@/components/layout/layout";
 export default function Index() {
   return (
     <PrimaryLayout>
+      <Head>
+        <title>Revolancer - Freelance Skills Exchange Platform</title>
+      </Head>
       <Hero />
       <SeenIn />
       <ExchangeShowcaseConnect />
