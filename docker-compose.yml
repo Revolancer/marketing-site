@@ -1,7 +1,7 @@
 services:
   proxy:
     build:
-      dockerfile: deploy/Dockerfile_nginx
+      dockerfile: Dockerfile_nginx
       args:
         - NODE_ENV=local
     ports:
@@ -12,7 +12,7 @@ services:
     depends_on:
       - proxy
     build:
-      dockerfile: deploy/Dockerfile_next
+      dockerfile: Dockerfile_next
       args:
         - NODE_ENV=local
     restart: always
