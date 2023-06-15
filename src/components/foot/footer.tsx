@@ -90,6 +90,13 @@ export const Footer = () => {
               <UnstyledLink href="mailto:support@revolancer.com">
                 Support
               </UnstyledLink>
+              <UnstyledLink
+                href="https://status.revolancer.com/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                Status
+              </UnstyledLink>
             </Flex>
             <Flex column gap={2}>
               <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Legal</P>
