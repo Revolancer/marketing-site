@@ -26,7 +26,7 @@ export const Build = () => {
               </P>
             </Flex>
             <Image
-              src="/homepage/Portfolio.png"
+              src="/homepage/portfolio-1.png"
               width={500}
               height={440}
               alt=""

@@ -11,6 +11,7 @@ export const Hero = () => {
       <Div
         css={{
           position: "relative",
+          overflowX: "hidden",
         }}
       >
         <Div
@@ -41,6 +42,7 @@ export const Hero = () => {
             minHeight: "564px",
             position: "relative",
             marginInline: "auto",
+            backgroundColor: "$navy900",
           }}
         >
           <Image
@@ -68,8 +70,10 @@ export const Hero = () => {
                   "@md": { flexDirection: "row", alignItems: "end" },
                 }}
               >
-                <Flex column>
-                  <H1>Exchange services with other online professionals.</H1>
+                <Flex column gap={9}>
+                  <H1 css={{ hangingPunctuation: "allow-end" }}>
+                    Exchange services with other online professionals.
+                  </H1>
                   <H4>
                     Exchange services, earn credits, then spend them on what you
                     need to grow your online business.
@@ -79,7 +83,7 @@ export const Hero = () => {
                   </Button>
                 </Flex>
                 <Image
-                  src="/homepage/hero-image.png"
+                  src="/homepage/hero-image-1.png"
                   width={533}
                   height={400}
                   alt=""
