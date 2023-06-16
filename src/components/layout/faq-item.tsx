@@ -42,6 +42,11 @@ const open = keyframes({
   to: { height: "var(--radix-collapsible-content-height)" },
 });
 
+const close = keyframes({
+  from: { height: "var(--radix-collapsible-content-height)" },
+  to: { height: 0 },
+});
+
 const Content = styled(Collapsible.Content, {
   overflow: "hidden",
   display: "flex",
@@ -51,6 +56,9 @@ const Content = styled(Collapsible.Content, {
   paddingBlockStart: "$3",
   '&[data-state="open"]': {
     animation: `${open} 200ms ease-in-out forwards`,
+  },
+  '&[data-state="closed"]:not(:empty)': {
+    animation: `${close} 200ms ease-in-out forwards`,
   },
 });
 
