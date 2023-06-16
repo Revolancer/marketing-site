@@ -1,11 +1,17 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { getCssText, globalStyles } from "@/stitches.config";
+import Script from "next/script";
 
 export default function Document() {
   globalStyles();
   return (
     <Html lang="en">
       <Head>
+        <Script
+          id="cookieyes"
+          src="https://cdn-cookieyes.com/client_data/c9eed3aaa2a251a8a7a60268/script.js"
+          strategy="beforeInteractive"
+        />
         <style
           id="stitches"
           dangerouslySetInnerHTML={{ __html: getCssText() }}
