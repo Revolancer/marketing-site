@@ -87,7 +87,7 @@ export const Footer = () => {
             <Flex column gap={2}>
               <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Resources</P>
               <UnstyledLink href="/magazine">Magazine</UnstyledLink>
-              <UnstyledLink href="mailto:support@revolancer.com">
+              <UnstyledLink href="https://support.revolancer.com/">
                 Support
               </UnstyledLink>
               <UnstyledLink
