@@ -102,6 +102,7 @@ export const Footer = () => {
               <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Legal</P>
               <UnstyledLink href="/terms">Terms &amp; Conditions</UnstyledLink>
               <UnstyledLink href="/privacy">Privacy Policy</UnstyledLink>
+              <UnstyledLink href="/cookies">Cookie Policy</UnstyledLink>
               <UnstyledLink href="/impressum">Impressum</UnstyledLink>
             </Flex>
             <Flex column gap={2}>
