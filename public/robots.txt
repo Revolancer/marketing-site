@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://revolancer.com
+
+# Sitemaps
+Sitemap: https://revolancer.com/sitemap.xml
+Sitemap: https://revolancer.com/magazine/sitemap_index.xml
