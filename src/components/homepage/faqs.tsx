@@ -79,10 +79,10 @@ export const FAQs = () => {
               No. Credits are an internal means of sourcing work - you can earn
               credits by expanding your portfolio (delivering projects), and
               then spend them on what you need (see question above) on
-              Revolancer Beta. These credits cannot be withdrawn from the
-              platform, however their value can be extracted by using them to
-              source projects for yourself or client projects from other users
-              on the platform.
+              Revolancer. These credits cannot be withdrawn from the platform,
+              however their value can be extracted by using them to source
+              projects for yourself or client projects from other users on the
+              platform.
             </P>
           </FAQItem>
           <FAQItem label="Do I need to swap both ways?">
