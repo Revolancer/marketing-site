@@ -1,10 +1,10 @@
-import { Title } from "@/components/head/title";
-import { Join } from "@/components/homepage/join";
-import { ColumnLayout, FullWidth } from "@/components/layout/columns";
-import { Flex } from "@/components/layout/flex";
-import { PrimaryLayout } from "@/components/layout/layout";
-import { PageHeader } from "@/components/layout/page-header";
-import Link from "next/link";
+import { Title } from '@/components/head/title';
+import { Join } from '@/components/homepage/join';
+import { ColumnLayout, FullWidth } from '@/components/layout/columns';
+import { Flex } from '@/components/layout/flex';
+import { PrimaryLayout } from '@/components/layout/layout';
+import { PageHeader } from '@/components/layout/page-header';
+import Link from 'next/link';
 
 export default function FourOhFour() {
   return (
@@ -13,7 +13,7 @@ export default function FourOhFour() {
       <PageHeader title="Privacy Policy" />
       <ColumnLayout>
         <FullWidth>
-          <Flex column css={{ marginBlock: "$16" }}>
+          <Flex column css={{ marginBlock: '$16' }}>
             <p>
               <strong>PRIVACY POLICY</strong>
             </p>
@@ -145,7 +145,7 @@ export default function FourOhFour() {
             <p>
               <strong>
                 7. To whom do we send or make available your personal
-                information?{" "}
+                information?{' '}
               </strong>
               <br />
               7.1. To other people who supply us with a service, e.g., hosts,
@@ -223,7 +223,7 @@ export default function FourOhFour() {
             </p>
             <p>
               9.4. For more information about your rights, visit the ICO&rsquo;s
-              website:{" "}
+              website:{' '}
               <Link
                 href="https://www.ico.org.uk"
                 target="_blank"

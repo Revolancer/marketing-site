@@ -4,38 +4,38 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/find-freelancers/",
-        destination: "/",
+        source: '/find-freelancers/',
+        destination: '/',
         permanent: true,
       },
       {
-        source: "/find-clients/",
-        destination: "/",
+        source: '/find-clients/',
+        destination: '/',
         permanent: true,
       },
       {
-        source: "/plus/",
-        destination: "/",
+        source: '/plus/',
+        destination: '/',
         permanent: true,
       },
       {
-        source: "/about/",
-        destination: "/",
+        source: '/about/',
+        destination: '/',
         permanent: false,
       },
       {
-        source: "/how-it-works/",
-        destination: "/",
+        source: '/how-it-works/',
+        destination: '/',
         permanent: true,
       },
       {
-        source: "/terms-and-conditions/",
-        destination: "/terms/",
+        source: '/terms-and-conditions/',
+        destination: '/terms/',
         permanent: true,
       },
       {
-        source: "/privacy-policy/",
-        destination: "/privacy/",
+        source: '/privacy-policy/',
+        destination: '/privacy/',
         permanent: true,
       },
     ];

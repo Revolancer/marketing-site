@@ -1,12 +1,12 @@
-import { Title } from "@/components/head/title";
-import { Join } from "@/components/homepage/join";
-import { ColumnLayout, FullWidth } from "@/components/layout/columns";
-import { Flex } from "@/components/layout/flex";
-import { PrimaryLayout } from "@/components/layout/layout";
-import { PageHeader } from "@/components/layout/page-header";
-import Link from "next/link";
-import { H5 } from "public/text/headings";
-import { P } from "public/text/text";
+import { Title } from '@/components/head/title';
+import { Join } from '@/components/homepage/join';
+import { ColumnLayout, FullWidth } from '@/components/layout/columns';
+import { Flex } from '@/components/layout/flex';
+import { PrimaryLayout } from '@/components/layout/layout';
+import { PageHeader } from '@/components/layout/page-header';
+import Link from 'next/link';
+import { H5 } from 'public/text/headings';
+import { P } from 'public/text/text';
 
 export default function FourOhFour() {
   return (
@@ -15,7 +15,7 @@ export default function FourOhFour() {
       <PageHeader title="Impressum" />
       <ColumnLayout>
         <FullWidth>
-          <Flex column css={{ marginBlock: "$16" }}>
+          <Flex column css={{ marginBlock: '$16' }}>
             <H5>Company Details</H5>
             <P>REVOLANCER LTD</P>
             <P> Company number: 13149073</P>

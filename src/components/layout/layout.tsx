@@ -1,13 +1,13 @@
-import { Header } from "./header";
-import { Footer } from "../foot/footer";
-import { styled } from "@/stitches.config";
-import Head from "next/head";
-import Script from "next/script";
+import { Header } from './header';
+import { Footer } from '../foot/footer';
+import { styled } from '@/stitches.config';
+import Head from 'next/head';
+import Script from 'next/script';
 
-const Container = styled("div", {
-  minHeight: "100vh",
-  display: "grid",
-  gridTemplateRows: "auto 1fr auto",
+const Container = styled('div', {
+  minHeight: '100vh',
+  display: 'grid',
+  gridTemplateRows: 'auto 1fr auto',
 });
 
 export const PrimaryLayout = ({ children }: { children?: any }) => {

@@ -1,48 +1,48 @@
-import Image from "next/image";
-import { ColumnLayout, FullWidth } from "../layout/columns";
-import { Div } from "../layout/div";
-import { Flex } from "../layout/flex";
-import { H1, H4 } from "public/text/headings";
-import { Button } from "../navigation/button";
+import Image from 'next/image';
+import { ColumnLayout, FullWidth } from '../layout/columns';
+import { Div } from '../layout/div';
+import { Flex } from '../layout/flex';
+import { H1, H4 } from 'public/text/headings';
+import { Button } from '../navigation/button';
 
 export const Hero = () => {
   return (
     <>
       <Div
         css={{
-          position: "relative",
-          overflowX: "hidden",
+          position: 'relative',
+          overflowX: 'hidden',
         }}
       >
         <Div
           css={{
-            position: "absolute",
-            top: "0",
-            left: "0",
-            width: "50vw",
-            height: "100%",
-            backgroundColor: "$navy900",
+            position: 'absolute',
+            top: '0',
+            left: '0',
+            width: '50vw',
+            height: '100%',
+            backgroundColor: '$navy900',
           }}
         />
         <Div
           css={{
-            position: "absolute",
-            top: "0",
-            left: "50vw",
-            width: "50vw",
-            height: "100%",
-            backgroundColor: "$white",
+            position: 'absolute',
+            top: '0',
+            left: '50vw',
+            width: '50vw',
+            height: '100%',
+            backgroundColor: '$white',
           }}
         />
         <Div
           css={{
-            maxHeight: "1024px",
-            maxWidth: "1440px",
-            minWidth: "360px",
-            minHeight: "564px",
-            position: "relative",
-            marginInline: "auto",
-            backgroundColor: "$navy900",
+            maxHeight: '1024px',
+            maxWidth: '1440px',
+            minWidth: '360px',
+            minHeight: '564px',
+            position: 'relative',
+            marginInline: 'auto',
+            backgroundColor: '$navy900',
           }}
         >
           <Image
@@ -51,12 +51,12 @@ export const Hero = () => {
             height="564"
             width="1440"
             style={{
-              objectFit: "cover",
-              position: "absolute",
+              objectFit: 'cover',
+              position: 'absolute',
               top: 0,
               left: 0,
-              height: "100%",
-              width: "100%",
+              height: '100%',
+              width: '100%',
             }}
             quality={100}
           ></Image>
@@ -64,14 +64,14 @@ export const Hero = () => {
             <FullWidth>
               <Flex
                 css={{
-                  color: "$white",
-                  flexDirection: "column",
-                  paddingBlock: "16px",
-                  "@md": { flexDirection: "row", alignItems: "end" },
+                  color: '$white',
+                  flexDirection: 'column',
+                  paddingBlock: '16px',
+                  '@md': { flexDirection: 'row', alignItems: 'end' },
                 }}
               >
                 <Flex column gap={9}>
-                  <H1 css={{ hangingPunctuation: "allow-end" }}>
+                  <H1 css={{ hangingPunctuation: 'allow-end' }}>
                     Exchange services with other online professionals.
                   </H1>
                   <H4>
@@ -89,8 +89,8 @@ export const Hero = () => {
                   alt=""
                   style={{
                     flexShrink: 0,
-                    minWidth: "400px",
-                    objectFit: "scale-down",
+                    minWidth: '400px',
+                    objectFit: 'scale-down',
                   }}
                 />
               </Flex>

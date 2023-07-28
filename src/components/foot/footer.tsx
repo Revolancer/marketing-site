@@ -1,33 +1,33 @@
-import { styled } from "@/stitches.config";
-import { ColumnLayout, FullWidth } from "../layout/columns";
-import { Div } from "../layout/div";
-import { Flex } from "../layout/flex";
-import { Logo } from "../layout/logo";
-import { Button, UnstyledLink } from "../navigation/button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { styled } from '@/stitches.config';
+import { ColumnLayout, FullWidth } from '../layout/columns';
+import { Div } from '../layout/div';
+import { Flex } from '../layout/flex';
+import { Logo } from '../layout/logo';
+import { Button, UnstyledLink } from '../navigation/button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,
   faInstagram,
   faLinkedin,
   faTiktok,
   faTwitterSquare,
-} from "@fortawesome/free-brands-svg-icons";
-import { P } from "public/text/text";
+} from '@fortawesome/free-brands-svg-icons';
+import { P } from 'public/text/text';
 
-const FootColumns = styled("div", {
-  display: "grid",
-  gridTemplateColumns: "1fr",
-  gap: "$6",
+const FootColumns = styled('div', {
+  display: 'grid',
+  gridTemplateColumns: '1fr',
+  gap: '$6',
 
-  "@md": {
-    gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
+  '@md': {
+    gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
   },
 });
 
-export const FooterElement = styled("footer", {
-  color: "$white",
-  backgroundColor: "$navy900",
-  paddingBlock: "$16",
+export const FooterElement = styled('footer', {
+  color: '$white',
+  backgroundColor: '$navy900',
+  paddingBlock: '$16',
 });
 
 export const Footer = () => {
@@ -80,12 +80,12 @@ export const Footer = () => {
               <P>&copy;2023 REVOLANCER LTD</P>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Company</P>
+              <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>Company</P>
               <UnstyledLink href="/">Homepage</UnstyledLink>
               <UnstyledLink href="/#works">How it works</UnstyledLink>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Resources</P>
+              <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>Resources</P>
               <UnstyledLink href="/magazine">Magazine</UnstyledLink>
               <UnstyledLink href="https://support.revolancer.com/">
                 Support
@@ -99,14 +99,14 @@ export const Footer = () => {
               </UnstyledLink>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>Legal</P>
+              <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>Legal</P>
               <UnstyledLink href="/terms">Terms &amp; Conditions</UnstyledLink>
               <UnstyledLink href="/privacy">Privacy Policy</UnstyledLink>
               <UnstyledLink href="/cookies">Cookie Policy</UnstyledLink>
               <UnstyledLink href="/impressum">Impressum</UnstyledLink>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: "$bold", fontSize: "$h5" }}>
+              <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>
                 Join Revolancer Today
               </P>
               <Button href="https://app.revolancer.com/register">
