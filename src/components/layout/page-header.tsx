@@ -1,12 +1,12 @@
-import { H1 } from "public/text/headings";
-import { ColumnLayout, FullWidth } from "./columns";
-import { Div } from "./div";
+import { H1 } from 'public/text/headings';
+import { ColumnLayout, FullWidth } from './columns';
+import { Div } from './div';
 
 export const PageHeader = ({ title }: { title: string }) => {
   return (
-    <Div css={{ backgroundColor: "$neutral100" }}>
+    <Div css={{ backgroundColor: '$neutral100' }}>
       <ColumnLayout>
-        <FullWidth css={{ marginBlock: "$12" }}>
+        <FullWidth css={{ marginBlock: '$12' }}>
           <H1>{title}</H1>
         </FullWidth>
       </ColumnLayout>

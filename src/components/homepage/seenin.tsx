@@ -1,16 +1,16 @@
-import { P } from "public/text/text";
-import { ColumnLayout, FullWidth } from "../layout/columns";
-import { Div } from "../layout/div";
-import { Flex } from "../layout/flex";
-import Image from "next/image";
+import { P } from 'public/text/text';
+import { ColumnLayout, FullWidth } from '../layout/columns';
+import { Div } from '../layout/div';
+import { Flex } from '../layout/flex';
+import Image from 'next/image';
 
 export const SeenIn = () => {
   return (
-    <Div css={{ backgroundColor: "$neutral100" }}>
+    <Div css={{ backgroundColor: '$neutral100' }}>
       <ColumnLayout>
-        <FullWidth css={{ marginBlock: "$12" }}>
-          <P css={{ textAlign: "center", marginBlockEnd: "$6" }}>As seen in:</P>
-          <Flex gap={10} wrap css={{ justifyContent: "center" }}>
+        <FullWidth css={{ marginBlock: '$12' }}>
+          <P css={{ textAlign: 'center', marginBlockEnd: '$6' }}>As seen in:</P>
+          <Flex gap={10} wrap css={{ justifyContent: 'center' }}>
             <Image
               height={40}
               width={129}

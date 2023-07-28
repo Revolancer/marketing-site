@@ -1,20 +1,20 @@
-import { P } from "public/text/text";
-import { ColumnLayout, FullWidth } from "../layout/columns";
-import { Div } from "../layout/div";
-import { Flex } from "../layout/flex";
-import Image from "next/image";
-import { H3 } from "public/text/headings";
+import { P } from 'public/text/text';
+import { ColumnLayout, FullWidth } from '../layout/columns';
+import { Div } from '../layout/div';
+import { Flex } from '../layout/flex';
+import Image from 'next/image';
+import { H3 } from 'public/text/headings';
 
 export const Build = () => {
   return (
-    <Div css={{ backgroundColor: "$neutral100" }}>
+    <Div css={{ backgroundColor: '$neutral100' }}>
       <ColumnLayout>
-        <FullWidth css={{ marginBlock: "$12" }}>
+        <FullWidth css={{ marginBlock: '$12' }}>
           <Flex
             css={{
-              flexDirection: "column",
-              paddingBlock: "16px",
-              "@md": { flexDirection: "row", alignItems: "center" },
+              flexDirection: 'column',
+              paddingBlock: '16px',
+              '@md': { flexDirection: 'row', alignItems: 'center' },
             }}
           >
             <Flex column gap={4}>
@@ -32,7 +32,7 @@ export const Build = () => {
               alt=""
               style={{
                 flexShrink: 0,
-                objectFit: "scale-down",
+                objectFit: 'scale-down',
               }}
             />
           </Flex>

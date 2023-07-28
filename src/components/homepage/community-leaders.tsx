@@ -1,36 +1,36 @@
-import { P } from "public/text/text";
-import { ColumnLayout, FullWidth } from "../layout/columns";
-import { Div } from "../layout/div";
-import { Flex } from "../layout/flex";
-import Image from "next/image";
-import { H3, H4 } from "public/text/headings";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
+import { P } from 'public/text/text';
+import { ColumnLayout, FullWidth } from '../layout/columns';
+import { Div } from '../layout/div';
+import { Flex } from '../layout/flex';
+import Image from 'next/image';
+import { H3, H4 } from 'public/text/headings';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 export const CommunityLeaders = () => {
   return (
     <ColumnLayout>
-      <FullWidth css={{ marginBlock: "$14" }}>
-        <H3 css={{ textAlign: "center", marginBlockEnd: "$5" }}>
+      <FullWidth css={{ marginBlock: '$14' }}>
+        <H3 css={{ textAlign: 'center', marginBlockEnd: '$5' }}>
           Community leaders love it.
         </H3>
         <Flex
           css={{
-            flexDirection: "column",
-            paddingBlock: "16px",
-            "@md": { flexDirection: "row", alignItems: "center" },
+            flexDirection: 'column',
+            paddingBlock: '16px',
+            '@md': { flexDirection: 'row', alignItems: 'center' },
           }}
           gap="12"
         >
-          <Div css={{ display: "none", "@md": { display: "block" } }}>
+          <Div css={{ display: 'none', '@md': { display: 'block' } }}>
             <Div
               css={{
-                borderRadius: "12px",
-                overflow: "hidden",
-                position: "relative",
-                width: "400px",
-                height: "480px",
+                borderRadius: '12px',
+                overflow: 'hidden',
+                position: 'relative',
+                width: '400px',
+                height: '480px',
               }}
             >
               <Image
@@ -62,15 +62,15 @@ export const CommunityLeaders = () => {
               and the potential for talented individuals to build successful
               careers in the gig economy.
             </P>
-            <Flex gap={8} css={{ alignItems: "center" }}>
-              <Div css={{ "@md": { display: "none" } }}>
+            <Flex gap={8} css={{ alignItems: 'center' }}>
+              <Div css={{ '@md': { display: 'none' } }}>
                 <Div
                   css={{
-                    borderRadius: "12px",
-                    overflow: "hidden",
-                    position: "relative",
-                    width: "80px",
-                    height: "80px",
+                    borderRadius: '12px',
+                    overflow: 'hidden',
+                    position: 'relative',
+                    width: '80px',
+                    height: '80px',
                   }}
                 >
                   <Image
@@ -78,18 +78,18 @@ export const CommunityLeaders = () => {
                     fill
                     sizes="80px"
                     alt="Alex Fasulo"
-                    style={{ objectFit: "cover" }}
+                    style={{ objectFit: 'cover' }}
                   />
                 </Div>
               </Div>
-              <Flex column css={{ "@md": { flexDirection: "row" } }}>
-                <P css={{ fontStyle: "italic", color: "$neutral700" }}>
+              <Flex column css={{ '@md': { flexDirection: 'row' } }}>
+                <P css={{ fontStyle: 'italic', color: '$neutral700' }}>
                   Alex Fasulo,
                 </P>
-                <P css={{ fontStyle: "italic", color: "$neutral700" }}>
+                <P css={{ fontStyle: 'italic', color: '$neutral700' }}>
                   <Link
                     href="https://www.instagram.com/p/Ce31vw0DW2z/"
-                    style={{ color: "inherit" }}
+                    style={{ color: 'inherit' }}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >

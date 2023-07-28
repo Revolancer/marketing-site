@@ -1,18 +1,18 @@
-import { P } from "public/text/text";
-import { ColumnLayout, FullWidth } from "../layout/columns";
-import { Div } from "../layout/div";
-import FAQItem from "../layout/faq-item";
-import { Flex } from "../layout/flex";
-import { H3 } from "public/text/headings";
+import { P } from 'public/text/text';
+import { ColumnLayout, FullWidth } from '../layout/columns';
+import { Div } from '../layout/div';
+import FAQItem from '../layout/faq-item';
+import { Flex } from '../layout/flex';
+import { H3 } from 'public/text/headings';
 
 export const FAQs = () => {
   return (
     <ColumnLayout>
-      <FullWidth css={{ marginBlock: "$16" }}>
+      <FullWidth css={{ marginBlock: '$16' }}>
         <Flex column gap={4}>
           <H3
             css={{
-              textAlign: "center",
+              textAlign: 'center',
             }}
           >
             FAQs

@@ -1,11 +1,11 @@
-import { Title } from "@/components/head/title";
-import { Join } from "@/components/homepage/join";
-import { ColumnLayout, FullWidth } from "@/components/layout/columns";
-import { Flex } from "@/components/layout/flex";
-import { PrimaryLayout } from "@/components/layout/layout";
-import { PageHeader } from "@/components/layout/page-header";
-import Link from "next/link";
-import { H5 } from "public/text/headings";
+import { Title } from '@/components/head/title';
+import { Join } from '@/components/homepage/join';
+import { ColumnLayout, FullWidth } from '@/components/layout/columns';
+import { Flex } from '@/components/layout/flex';
+import { PrimaryLayout } from '@/components/layout/layout';
+import { PageHeader } from '@/components/layout/page-header';
+import Link from 'next/link';
+import { H5 } from 'public/text/headings';
 
 export default function FourOhFour() {
   return (
@@ -14,7 +14,7 @@ export default function FourOhFour() {
       <PageHeader title="Cookie Policy" />
       <ColumnLayout>
         <FullWidth>
-          <Flex column css={{ marginBlock: "$16" }}>
+          <Flex column css={{ marginBlock: '$16' }}>
             <p>
               Effective Date: 01-Jun-2023 <br />
               Last Updated: 29-Jun-2023
@@ -27,7 +27,7 @@ export default function FourOhFour() {
                 them, the types of cookies we use i.e, the information we
                 collect using cookies and how that information is used, and how
                 to manage the cookie settings.
-              </p>{" "}
+              </p>{' '}
               <p>
                 Cookies are small text files that are used to store small pieces
                 of information. They are stored on your device when the website
@@ -46,7 +46,7 @@ export default function FourOhFour() {
                 are mostly necessary for the website to function the right way,
                 and they do not collect any of your personally identifiable
                 data.
-              </p>{" "}
+              </p>{' '}
               <p>
                 The third-party cookies used on our website are mainly for
                 understanding how the website performs, how you interact with
@@ -60,40 +60,40 @@ export default function FourOhFour() {
             <H5>Types of Cookies we use</H5>
             <div className="cky-audit-table-element"></div>
             &nbsp;
-            <H5 style={{ marginBottom: "20px" }}>Manage cookie preferences</H5>
+            <H5 style={{ marginBottom: '20px' }}>Manage cookie preferences</H5>
             <a
               className="cky-banner-element"
               style={{
-                padding: "8px 30px",
-                background: "#F8F9FA",
-                color: "#858A8F",
-                border: "1px solid #DEE2E6",
-                boxSizing: "border-box",
-                borderRadius: "2px",
-                cursor: "pointer",
-                display: "inline-block",
-                width: "max-content",
+                padding: '8px 30px',
+                background: '#F8F9FA',
+                color: '#858A8F',
+                border: '1px solid #DEE2E6',
+                boxSizing: 'border-box',
+                borderRadius: '2px',
+                cursor: 'pointer',
+                display: 'inline-block',
+                width: 'max-content',
               }}
             >
               Cookie Settings
-            </a>{" "}
+            </a>{' '}
             <br />
             <div>
               <p>
                 You can change your cookie preferences any time by clicking the
                 above button. This will let you revisit the cookie consent
                 banner and change your preferences or withdraw your consent
-                right away.{" "}
-              </p>{" "}
+                right away.{' '}
+              </p>{' '}
               <p>
                 In addition to this, different browsers provide different
                 methods to block and delete cookies used by websites. You can
                 change the settings of your browser to block/delete the cookies.
                 Listed below are the links to the support documents on how to
                 manage and delete cookies from the major web browsers.
-              </p>{" "}
+              </p>{' '}
               <p>
-                Chrome:{" "}
+                Chrome:{' '}
                 <a
                   href="https://support.google.com/accounts/answer/32050"
                   target="_blank"
@@ -102,7 +102,7 @@ export default function FourOhFour() {
                 </a>
               </p>
               <p>
-                Safari:{" "}
+                Safari:{' '}
                 <a
                   href="https://support.apple.com/en-in/guide/safari/sfri11471/mac"
                   target="_blank"
@@ -111,7 +111,7 @@ export default function FourOhFour() {
                 </a>
               </p>
               <p>
-                Firefox:{" "}
+                Firefox:{' '}
                 <a
                   href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox?redirectslug=delete-cookies-remove-info-websites-stored&redirectlocale=en-US"
                   target="_blank"
@@ -120,7 +120,7 @@ export default function FourOhFour() {
                 </a>
               </p>
               <p>
-                Internet Explorer:{" "}
+                Internet Explorer:{' '}
                 <a
                   href="https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc"
                   target="_blank"
