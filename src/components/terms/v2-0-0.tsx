@@ -62,61 +62,61 @@ export const Termsv2_0_0 = () => {
               capitalised):
               <ul>
                 <li>
-                  &rlquo;App&rdquo; &ndash; the Revolancer mobile application.
+                  &ldquo;App&rdquo; &ndash; the Revolancer mobile application.
                 </li>
                 <li>
-                  &rlquo;Buyer&rdquo; &ndash; a User when using our Service in
+                  &ldquo;Buyer&rdquo; &ndash; a User when using our Service in
                   the capacity of a buyer of Freelance Services.
                 </li>
                 <li>
-                  &rlquo;Consumer&rdquo; - an individual acting for purposes
-                  which are wholly or mainly outside that person&rsquo;s trade,
-                  business, craft or profession.
+                  &ldquo;Consumer&rdquo; &ndash; an individual acting for
+                  purposes which are wholly or mainly outside that
+                  person&rsquo;s trade, business, craft or profession.
                 </li>
                 <li>
-                  &rlquo;Content&rdquo; - all information of whatever kind
+                  &ldquo;Content&rdquo; &ndash; all information of whatever kind
                   (including listings, profiles, posts, comments, chat, images,
                   photos, audio, video, advertisements, messages, Reviews etc.)
                   displayed on or sent through our Service.
                 </li>
                 <li>
-                  &rlquo;Credits&rdquo; &ndash; credits that can be used to pay
+                  &ldquo;Credits&rdquo; &ndash; credits that can be used to pay
                   for Freelance Services on our Service.
                 </li>
                 <li>
-                  &rlquo;Dispute&rdquo; &ndash; a dispute raised through our
+                  &ldquo;Dispute&rdquo; &ndash; a dispute raised through our
                   Service.
                 </li>
                 <li>
-                  &rlquo;Freelance Contract&rdquo; &ndash; a contract for the
+                  &ldquo;Freelance Contract&rdquo; &ndash; a contract for the
                   supply of Freelance Services.
                 </li>
                 <li>
-                  &rlquo;Freelance Services&rdquo; &ndash; services offered by
+                  &ldquo;Freelance Services&rdquo; &ndash; services offered by
                   Sellers to Buyers on our Service.
                 </li>
-                <li>&rlquo;Review&rdquo; - any review or rating.</li>
+                <li>&ldquo;Review&rdquo; &ndash; any review or rating.</li>
                 <li>
-                  &rlquo;Seller&rdquo; &ndash; a User when using our Service in
+                  &ldquo;Seller&rdquo; &ndash; a User when using our Service in
                   the capacity of a supplyier of Freelance Services.
                 </li>
                 <li>
-                  &rlquo;Service&rdquo; &ndash; the platform service we offer by
+                  &ldquo;Service&rdquo; &ndash; the platform service we offer by
                   means of our website/App<strong> </strong>and any related
                   software and services.
                 </li>
                 <li>
-                  &rlquo;Store&rdquo; &ndash; the app distributor from which you
+                  &ldquo;Store&rdquo; &ndash; the app distributor from which you
                   download the App (e.g., Apple App Store, Google Play App
                   Store).
                 </li>
                 <li>
-                  &rlquo;Store Rules&rdquo; &ndash; any applicable rules,
+                  &ldquo;Store Rules&rdquo; &ndash; any applicable rules,
                   policies or terms of the relevant Store.
                 </li>
                 <li>
-                  &rlquo;User&rdquo; - people or organisations using our Service
-                  (whether or not registered with us).
+                  &ldquo;User&rdquo; &ndash; people or organisations using our
+                  Service (whether or not registered with us).
                 </li>
               </ul>
             </li>
@@ -134,7 +134,7 @@ export const Termsv2_0_0 = () => {
               orders from us are part of this same contract with us.
             </li>
             <li>
-              For App users: These terms and conditions are an &rlquo;end user
+              For App users: These terms and conditions are an &ldquo;end user
               licence agreement&rdquo; between you and us (not the Store) in
               relation to our App (i.e., setting out how we allow you to use our
               App). You also agree to be legally bound by the Store Rules.
@@ -152,7 +152,7 @@ export const Termsv2_0_0 = () => {
         </li>
         <li>
           <strong>
-            Consumer right to cancel this platform contract (&rlquo;cooling
+            Consumer right to cancel this platform contract (&ldquo;cooling
             off&rdquo;)
           </strong>
           <ol>
@@ -275,7 +275,8 @@ export const Termsv2_0_0 = () => {
         </li>
         <li>
           <strong>
-            Freelance Services (very important - we only provide a platform)
+            Freelance Services (very important &ndash; we only provide a
+            platform)
           </strong>
         </li>
         <ol>
@@ -411,7 +412,7 @@ export const Termsv2_0_0 = () => {
           <li>
             It is the responsibility of the Seller to confirm via our Service
             when the job has been completed and delivered. This step is referred
-            to below as &rlquo;Completion&rdquo;.
+            to below as &ldquo;Completion&rdquo;.
           </li>
           <li>
             If the Buyer either:
@@ -668,7 +669,7 @@ export const Termsv2_0_0 = () => {
             <li>
               This section applies only to Sellers who pay us subscriptions and
               not to Buyers paying for Freelance Services (which is covered
-              above under &rlquo;Freelance Services&rdquo;).
+              above under &ldquo;Freelance Services&rdquo;).
             </li>
             <li>
               Payment for subscriptions is in advance and covers the period
@@ -746,10 +747,10 @@ export const Termsv2_0_0 = () => {
           <ol>
             <li>
               This section of our terms and conditions applies to any referral
-              or affiliate scheme on our Service - except insofar as the scheme
-              description on our Service says something different &ndash; and
-              provided we have specifically agreed with you in writing that the
-              affiliate scheme applies to you.
+              or affiliate scheme on our Service &ndash; except insofar as the
+              scheme description on our Service says something different &ndash;
+              and provided we have specifically agreed with you in writing that
+              the affiliate scheme applies to you.
             </li>
             <li>
               Subject to what we say below, you qualify for the relevant benefit
@@ -766,10 +767,10 @@ export const Termsv2_0_0 = () => {
                   completion of the job and resolution of any Dispute.
                 </li>
               </ul>
-              We call this a &rlquo;Referral Event&rdquo;.
+              We call this a &ldquo;Referral Event&rdquo;.
             </li>
             <li>
-              If you have a &rlquo;business partner account&rdquo;, subject to
+              If you have a &ldquo;business partner account&rdquo;, subject to
               what we say below, you also qualify for the relevant benefit if
               during the affiliation period that we have specified the referred
               person:
@@ -784,7 +785,7 @@ export const Termsv2_0_0 = () => {
                   as a Seller.
                 </li>
               </ul>
-              We call this a &rlquo;Referral Event&rdquo;.
+              We call this a &ldquo;Referral Event&rdquo;.
             </li>
             <li>You cannot refer yourself.</li>
             <li>
@@ -843,7 +844,7 @@ export const Termsv2_0_0 = () => {
               You may at any time end this (platform) contract by emailing us to
               the email address shown below and, if you are an App User, by
               uninstalling the App from all of your devices. (This doesn&rsquo;t
-              entitle you to a refund unless you have Consumer &rlquo;cooling
+              entitle you to a refund unless you have Consumer &ldquo;cooling
               off&rdquo; rights, explained above.)
             </li>
             <li>
@@ -1018,7 +1019,7 @@ export const Termsv2_0_0 = () => {
                   that are not expressly stated in this agreement.
                 </li>
                 <li>
-                  Subject to the first paragraph in this section (&rlquo;Nothing
+                  Subject to the first paragraph in this section (&ldquo;Nothing
                   in this agreement…&rdquo;), we shall under no circumstances
                   whatever be liable under or in connection with this agreement,
                   whether in contract, tort (including negligence),
@@ -1034,7 +1035,7 @@ export const Termsv2_0_0 = () => {
                   </ul>
                 </li>
                 <li>
-                  Subject to the first paragraph in this section (&rlquo;Nothing
+                  Subject to the first paragraph in this section (&ldquo;Nothing
                   in this agreement…&rdquo;), if you are or were a subscriber,
                   <strong> </strong>our total liability in respect of all other
                   losses arising under or in connection with this agreement
@@ -1072,7 +1073,7 @@ export const Termsv2_0_0 = () => {
               or part of such material however we wish on our Service as well as
               on other channels including social media, including to enhance,
               redistribute and/or promote our Service. You waive your
-              &rlquo;moral rights&rdquo; in relation to such Content to the
+              &ldquo;moral rights&rdquo; in relation to such Content to the
               extent legally allowed.
               <strong> </strong>You also allow each User to use your Content in
               accordance with these terms and conditions. You give us the right
@@ -1234,7 +1235,7 @@ export const Termsv2_0_0 = () => {
             <li>
               You agree that (i) you are not located in a country that is
               subject to a U.S. Government embargo, or that has been designated
-              by the U.S. Government as a &rlquo;terrorist supporting&rdquo;
+              by the U.S. Government as a &ldquo;terrorist supporting&rdquo;
               country; and (ii) you are not listed on any U.S. Government list
               of prohibited or restricted parties.
             </li>
@@ -1254,7 +1255,7 @@ export const Termsv2_0_0 = () => {
           <strong>Company information</strong>
           <ol>
             <li>Company name: Revolancer Ltd</li>
-            <li>Trading name: &rlquo;Revolancer&rdquo;</li>
+            <li>Trading name: &ldquo;Revolancer&rdquo;</li>
             <li>Country of incorporation: England and Wales</li>
             <li>Registered number: 13149073</li>
             <li>
@@ -1278,7 +1279,7 @@ export const Termsv2_0_0 = () => {
       <p style={{ textAlign: 'center' }}>
         <strong>APPENDIX</strong>
         <br />
-        <strong>&rlquo;COOLING OFF&rdquo;</strong>
+        <strong>&ldquo;COOLING OFF&rdquo;</strong>
       </p>
       The following applies if you have the right to cancel your platform
       contract with us.
