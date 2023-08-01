@@ -69,12 +69,12 @@ export const Termsv2_0_0 = () => {
                   the capacity of a buyer of Freelance Services.
                 </li>
                 <li>
-                  &ldquo;Consumer&rdquo;  &ndash;  an individual acting for purposes
-                  which are wholly or mainly outside that person&rsquo;s trade,
-                  business, craft or profession.
+                  &ldquo;Consumer&rdquo; &ndash; an individual acting for
+                  purposes which are wholly or mainly outside that
+                  person&rsquo;s trade, business, craft or profession.
                 </li>
                 <li>
-                  &ldquo;Content&rdquo;  &ndash;  all information of whatever kind
+                  &ldquo;Content&rdquo; &ndash; all information of whatever kind
                   (including listings, profiles, posts, comments, chat, images,
                   photos, audio, video, advertisements, messages, Reviews etc.)
                   displayed on or sent through our Service.
@@ -95,7 +95,7 @@ export const Termsv2_0_0 = () => {
                   &ldquo;Freelance Services&rdquo; &ndash; services offered by
                   Sellers to Buyers on our Service.
                 </li>
-                <li>&ldquo;Review&rdquo;  &ndash;  any review or rating.</li>
+                <li>&ldquo;Review&rdquo; &ndash; any review or rating.</li>
                 <li>
                   &ldquo;Seller&rdquo; &ndash; a User when using our Service in
                   the capacity of a supplyier of Freelance Services.
@@ -115,8 +115,8 @@ export const Termsv2_0_0 = () => {
                   policies or terms of the relevant Store.
                 </li>
                 <li>
-                  &ldquo;User&rdquo;  &ndash;  people or organisations using our Service
-                  (whether or not registered with us).
+                  &ldquo;User&rdquo; &ndash; people or organisations using our
+                  Service (whether or not registered with us).
                 </li>
               </ul>
             </li>
@@ -275,7 +275,8 @@ export const Termsv2_0_0 = () => {
         </li>
         <li>
           <strong>
-            Freelance Services (very important  &ndash;  we only provide a platform)
+            Freelance Services (very important &ndash; we only provide a
+            platform)
           </strong>
         </li>
         <ol>
@@ -746,10 +747,10 @@ export const Termsv2_0_0 = () => {
           <ol>
             <li>
               This section of our terms and conditions applies to any referral
-              or affiliate scheme on our Service &ndash; except insofar as the scheme
-              description on our Service says something different &ndash; and
-              provided we have specifically agreed with you in writing that the
-              affiliate scheme applies to you.
+              or affiliate scheme on our Service &ndash; except insofar as the
+              scheme description on our Service says something different &ndash;
+              and provided we have specifically agreed with you in writing that
+              the affiliate scheme applies to you.
             </li>
             <li>
               Subject to what we say below, you qualify for the relevant benefit
