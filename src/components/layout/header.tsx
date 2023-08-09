@@ -1,8 +1,9 @@
-import { styled } from '@/stitches.config';
+import { styled } from '@revolancer/ui';
 import { Logo } from './logo';
 import { ColumnLayout, FullWidth } from './columns';
 import { Flex } from './flex';
-import { Button, TertiaryButton, UnstyledLink } from '../navigation/button';
+import { Buttons } from '@revolancer/ui';
+const { Button, TertiaryButton, UnstyledLink } = Buttons;
 
 const HeaderDiv = styled('header', {
   backgroundColor: '$navy900',

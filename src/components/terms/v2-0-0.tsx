@@ -1,5 +1,6 @@
 import { Flex } from '../layout/flex';
-import { Link } from '../navigation/button';
+import { Buttons } from '@revolancer/ui';
+const { Link } = Buttons;
 
 export const Termsv2_0_0 = () => {
   return (

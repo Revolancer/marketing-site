@@ -1,9 +1,10 @@
-import { styled } from '@/stitches.config';
+import { styled } from '@revolancer/ui';
 import { ColumnLayout, FullWidth } from '../layout/columns';
 import { Div } from '../layout/div';
 import { Flex } from '../layout/flex';
 import { Logo } from '../layout/logo';
-import { Button, UnstyledLink } from '../navigation/button';
+import { Buttons } from '@revolancer/ui';
+const { Button, UnstyledLink } = Buttons;
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,
@@ -12,7 +13,7 @@ import {
   faTiktok,
   faTwitterSquare,
 } from '@fortawesome/free-brands-svg-icons';
-import { P } from 'public/text/text';
+import { P } from '@/components/text/text';
 
 const FootColumns = styled('div', {
   display: 'grid',

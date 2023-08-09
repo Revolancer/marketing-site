@@ -1,9 +1,9 @@
-import { P } from 'public/text/text';
+import { P } from '@/components/text/text';
 import { ColumnLayout, FullWidth } from '../layout/columns';
 import { Div } from '../layout/div';
 import { Flex } from '../layout/flex';
 import Image from 'next/image';
-import { H3, H4 } from 'public/text/headings';
+import { H3, H4 } from '@/components/text/headings';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';

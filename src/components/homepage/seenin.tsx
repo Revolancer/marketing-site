@@ -1,4 +1,4 @@
-import { P } from 'public/text/text';
+import { P } from '@/components/text/text';
 import { ColumnLayout, FullWidth } from '../layout/columns';
 import { Div } from '../layout/div';
 import { Flex } from '../layout/flex';

@@ -1,7 +1,7 @@
-import { styled } from '@/stitches.config';
+import { styled } from '@revolancer/ui';
 import { ColumnLayout, FullWidth } from '../layout/columns';
 import { Div } from '../layout/div';
-import { H5 } from 'public/text/headings';
+import { H5 } from '@/components/text/headings';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCodeFork,
@@ -9,7 +9,7 @@ import {
   faUsers,
 } from '@fortawesome/free-solid-svg-icons';
 import { Flex } from '../layout/flex';
-import { P } from 'public/text/text';
+import { P } from '@/components/text/text';
 
 const Columns = styled('div', {
   display: 'grid',

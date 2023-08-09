@@ -4,8 +4,8 @@ import { Flex } from '@/components/layout/flex';
 import { PrimaryLayout } from '@/components/layout/layout';
 import { Button } from '@/components/navigation/button';
 import Image from 'next/image';
-import { H1, H3 } from 'public/text/headings';
-import { P } from 'public/text/text';
+import { H1, H3 } from '@/components/text/headings';
+import { P } from '@/components/text/text';
 
 export default function FourOhFour() {
   return (

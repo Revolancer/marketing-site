@@ -5,7 +5,7 @@ import { Flex } from '@/components/layout/flex';
 import { PrimaryLayout } from '@/components/layout/layout';
 import { PageHeader } from '@/components/layout/page-header';
 import Link from 'next/link';
-import { H5 } from 'public/text/headings';
+import { H5 } from '@/components/text/headings';
 
 export default function FourOhFour() {
   return (

@@ -19,15 +19,15 @@
   "customizations": {
     "vscode": {
       "extensions": [
-		"esbenp.prettier-vscode",
-		"dbaeumer.vscode-eslint",
-		"aaron-bond.better-comments",
-		"2gua.rainbow-brackets",
-		"eamodio.gitlens",
-		"eg2.vscode-npm-script",
-		"ahmadalli.vscode-nginx-conf",
-		"ms-azuretools.vscode-docker"
-	]
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "aaron-bond.better-comments",
+        "2gua.rainbow-brackets",
+        "eamodio.gitlens",
+        "eg2.vscode-npm-script",
+        "ahmadalli.vscode-nginx-conf",
+        "ms-azuretools.vscode-docker"
+      ]
     }
   }
 

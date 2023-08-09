@@ -1,8 +1,9 @@
 import { ColumnLayout, FullWidth } from '../layout/columns';
 import { Div } from '../layout/div';
 import { Flex } from '../layout/flex';
-import { H2, H4 } from 'public/text/headings';
-import { Button } from '../navigation/button';
+import { H2, H4 } from '@/components/text/headings';
+import { Buttons } from '@revolancer/ui';
+const { Button } = Buttons;
 
 export const Join = () => {
   return (

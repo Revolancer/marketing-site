@@ -1,4 +1,4 @@
-import { H1 } from 'public/text/headings';
+import { H1 } from '@/components/text/headings';
 import { ColumnLayout, FullWidth } from './columns';
 import { Div } from './div';
 
