@@ -1,5 +1,5 @@
 import { Interactive } from 'react-interactive';
-import { darkTheme, styled } from '@/stitches.config';
+import { darkTheme, styled } from '@revolancer/ui';
 import NextLink from 'next/link';
 
 const styles = {

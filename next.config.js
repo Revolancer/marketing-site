@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  transpilePackages: ['@revolancer/ui'],
   trailingSlash: true,
   async redirects() {
     return [

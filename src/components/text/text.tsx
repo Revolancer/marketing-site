@@ -1,3 +1,3 @@
 import { styled } from '@revolancer/ui';
 
-export const Div = styled('div', {});
+export const P = styled('p');

@@ -1,14 +1,14 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://revolancer.com",
+  siteUrl: 'https://revolancer.com',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
       {
-        userAgent: "*",
-        allow: "/",
+        userAgent: '*',
+        allow: '/',
       },
     ],
-    additionalSitemaps: ["https://revolancer.com/magazine/sitemap_index.xml"],
+    additionalSitemaps: ['https://revolancer.com/magazine/sitemap_index.xml'],
   },
 };

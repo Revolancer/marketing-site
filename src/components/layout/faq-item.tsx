@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Collapsible from '@radix-ui/react-collapsible';
-import { keyframes, styled } from '@/stitches.config';
+import { keyframes, styled } from '@revolancer/ui';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 

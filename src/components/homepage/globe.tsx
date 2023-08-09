@@ -1,9 +1,9 @@
-import { P } from 'public/text/text';
+import { P } from '@/components/text/text';
 import { ColumnLayout, FullWidth } from '../layout/columns';
 import { Div } from '../layout/div';
 import { Flex } from '../layout/flex';
 import Image from 'next/image';
-import { H3 } from 'public/text/headings';
+import { H3 } from '@/components/text/headings';
 
 export const Globe = () => {
   return (
