@@ -3,8 +3,7 @@ import { ColumnLayout, FullWidth } from '../layout/columns';
 import { Div } from '../layout/div';
 import { Flex } from '../layout/flex';
 import { Logo } from '../layout/logo';
-import { Buttons } from '@revolancer/ui';
-const { Button, UnstyledLink } = Buttons;
+import { Button, UnstyledLink } from '@revolancer/ui/buttons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,

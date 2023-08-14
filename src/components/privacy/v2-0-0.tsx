@@ -1,6 +1,5 @@
 import { Flex } from '../layout/flex';
-import { Buttons } from '@revolancer/ui';
-const { Link } = Buttons;
+import { Link } from '@revolancer/ui/buttons';
 
 export const Privacyv2_0_0 = () => {
   return (
