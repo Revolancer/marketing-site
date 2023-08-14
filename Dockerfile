@@ -2,7 +2,7 @@
 
 FROM node:18-alpine AS dependencies
 WORKDIR /app
-COPY package.json package-lock.json ./
+COPY package.json package-lock.json .npmrc ./
 RUN npm ci --omit=dev
 
 # Rebuild the source code only when needed
