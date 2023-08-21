@@ -24,7 +24,7 @@
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.13",
     "next": "13.4.13",
-    "next-sitemap": "^4.1.8",
+    "next-sitemap": "^4.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-interactive": "^1.1.2",
