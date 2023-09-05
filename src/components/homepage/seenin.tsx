@@ -4,18 +4,26 @@ import { Div } from '../layout/div';
 import { Flex } from '../layout/flex';
 import Image from 'next/image';
 
-export const SeenIn = () => {
+export const SeenIn = ({ white = false }: { white?: boolean }) => {
   return (
-    <Div css={{ backgroundColor: '$neutral100' }}>
+    <Div css={!white ? { backgroundColor: '$neutral100' } : {}}>
       <ColumnLayout>
         <FullWidth css={{ marginBlock: '$12' }}>
-          <P css={{ textAlign: 'center', marginBlockEnd: '$6' }}>As seen in:</P>
+          <P css={{ textAlign: 'center', marginBlockEnd: '$6' }}>
+            Revolancer featured in:
+          </P>
           <Flex gap={10} wrap css={{ justifyContent: 'center' }}>
             <Image
               height={40}
               width={129}
               alt="Business Insider"
               src="/homepage/publications/businsider.png"
+            />
+            <Image
+              height={40}
+              width={246}
+              alt="The Telegraph"
+              src="/homepage/publications/telegraph.png"
             />
             <Image
               height={40}
@@ -28,12 +36,6 @@ export const SeenIn = () => {
               width={93}
               alt="Insider Media"
               src="/homepage/publications/insider.png"
-            />
-            <Image
-              height={40}
-              width={260}
-              alt="Medium"
-              src="/homepage/publications/medium.png"
             />
             <Image
               height={40}
