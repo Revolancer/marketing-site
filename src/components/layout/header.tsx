@@ -7,6 +7,10 @@ import { Button, TertiaryButton, UnstyledLink } from '@revolancer/ui/buttons';
 const HeaderDiv = styled('header', {
   backgroundColor: '$navy900',
   paddingBlock: '$5',
+  display: 'none',
+  '@md': {
+    display: 'block',
+  },
 });
 
 export const Header = () => {
