@@ -3,6 +3,7 @@ import { Footer } from '../foot/footer';
 import { styled } from '@revolancer/ui';
 import Head from 'next/head';
 import Script from 'next/script';
+import { MobileHeader } from './mobile-header';
 
 const Container = styled('div', {
   minHeight: '100vh',
@@ -51,6 +52,7 @@ export const PrimaryLayout = ({ children }: { children?: any }) => {
       </Script>
       <Container>
         <Header />
+        <MobileHeader />
         <main>{children}</main>
         <Footer />
       </Container>
