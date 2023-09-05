@@ -14,10 +14,19 @@ export const Header = () => {
     <HeaderDiv>
       <ColumnLayout>
         <FullWidth>
-          <Flex css={{ justifyContent: 'space-between', alignItems: 'center' }}>
-            <UnstyledLink href="/">
-              <Logo expanded />
-            </UnstyledLink>
+          <Flex
+            css={{
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              color: '$white',
+            }}
+          >
+            <Flex gap={8} css={{ alignItems: 'center' }}>
+              <UnstyledLink href="/">
+                <Logo expanded />
+              </UnstyledLink>
+              <UnstyledLink href="/about">About Us</UnstyledLink>
+            </Flex>
             <Flex gap={6} css={{ alignItems: 'center' }}>
               <TertiaryButton
                 href="https://app.revolancer.com/login"

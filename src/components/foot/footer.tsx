@@ -82,7 +82,8 @@ export const Footer = () => {
             <Flex column gap={2}>
               <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>Company</P>
               <UnstyledLink href="/">Homepage</UnstyledLink>
-              <UnstyledLink href="/#works">How it works</UnstyledLink>
+              <UnstyledLink href="/#works">How it Works</UnstyledLink>
+              <UnstyledLink href="/about">About Us</UnstyledLink>
             </Flex>
             <Flex column gap={2}>
               <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>Resources</P>
