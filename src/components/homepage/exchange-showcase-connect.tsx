@@ -1,15 +1,12 @@
 import { styled } from '@revolancer/ui';
-import { ColumnLayout, FullWidth } from '../layout/columns';
-import { Div } from '../layout/div';
-import { H5 } from '@/components/text/headings';
+import { ColumnLayout, FullWidth, Div, Flex } from '@revolancer/ui/layout';
+import { H5, P } from '@revolancer/ui/text';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCodeFork,
   faImages,
   faUsers,
 } from '@fortawesome/free-solid-svg-icons';
-import { Flex } from '../layout/flex';
-import { P } from '@/components/text/text';
 
 const Columns = styled('div', {
   display: 'grid',

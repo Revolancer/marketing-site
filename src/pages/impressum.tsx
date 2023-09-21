@@ -1,12 +1,12 @@
 import { Title } from '@/components/head/title';
 import { Join } from '@/components/homepage/join';
-import { ColumnLayout, FullWidth } from '@/components/layout/columns';
-import { Flex } from '@/components/layout/flex';
+import { ColumnLayout, FullWidth } from '@revolancer/ui/layout';
+import { Flex } from '@revolancer/ui/layout';
 import { PrimaryLayout } from '@/components/layout/layout';
 import { PageHeader } from '@/components/layout/page-header';
 import Link from 'next/link';
-import { H5 } from '@/components/text/headings';
-import { P } from '@/components/text/text';
+import { H5 } from '@revolancer/ui/text';
+import { P } from '@revolancer/ui/text';
 import Head from 'next/head';
 import { revolancerSchema } from '@/components/schema';
 

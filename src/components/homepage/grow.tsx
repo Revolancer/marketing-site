@@ -1,9 +1,7 @@
-import { P } from '@/components/text/text';
-import { ColumnLayout, FullWidth } from '../layout/columns';
-import { Div } from '../layout/div';
-import { Flex } from '../layout/flex';
+import { P } from '@revolancer/ui/text';
+import { ColumnLayout, FullWidth, Div, Flex } from '@revolancer/ui/layout';
 import Image from 'next/image';
-import { H3 } from '@/components/text/headings';
+import { H3 } from '@revolancer/ui/text';
 
 export const Grow = () => {
   return (

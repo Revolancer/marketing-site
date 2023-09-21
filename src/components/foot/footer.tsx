@@ -1,7 +1,5 @@
 import { styled } from '@revolancer/ui';
-import { ColumnLayout, FullWidth } from '../layout/columns';
-import { Div } from '../layout/div';
-import { Flex } from '../layout/flex';
+import { ColumnLayout, FullWidth, Div, Flex } from '@revolancer/ui/layout';
 import { Logo } from '../layout/logo';
 import { Button, UnstyledLink } from '@revolancer/ui/buttons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,7 +10,7 @@ import {
   faTiktok,
   faTwitterSquare,
 } from '@fortawesome/free-brands-svg-icons';
-import { P } from '@/components/text/text';
+import { P } from '@revolancer/ui/text';
 
 const FootColumns = styled('div', {
   display: 'grid',

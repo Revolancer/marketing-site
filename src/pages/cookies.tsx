@@ -1,10 +1,10 @@
 import { Title } from '@/components/head/title';
 import { Join } from '@/components/homepage/join';
-import { ColumnLayout, FullWidth } from '@/components/layout/columns';
-import { Flex } from '@/components/layout/flex';
+import { ColumnLayout, FullWidth } from '@revolancer/ui/layout';
+import { Flex } from '@revolancer/ui/layout';
 import { PrimaryLayout } from '@/components/layout/layout';
 import { PageHeader } from '@/components/layout/page-header';
-import { H5 } from '@/components/text/headings';
+import { H5 } from '@revolancer/ui/text';
 
 export default function FourOhFour() {
   return (

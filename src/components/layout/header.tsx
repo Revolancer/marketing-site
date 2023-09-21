@@ -1,7 +1,6 @@
 import { styled } from '@revolancer/ui';
 import { Logo } from './logo';
-import { ColumnLayout, FullWidth } from './columns';
-import { Flex } from './flex';
+import { ColumnLayout, FullWidth, Flex } from '@revolancer/ui/layout';
 import { Button, TertiaryButton, UnstyledLink } from '@revolancer/ui/buttons';
 
 const HeaderDiv = styled('header', {

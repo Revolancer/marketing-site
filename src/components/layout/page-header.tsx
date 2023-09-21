@@ -1,6 +1,5 @@
-import { H1 } from '@/components/text/headings';
-import { ColumnLayout, FullWidth } from './columns';
-import { Div } from './div';
+import { H1 } from '@revolancer/ui/text';
+import { ColumnLayout, FullWidth, Div } from '@revolancer/ui/layout';
 
 export const PageHeader = ({ title }: { title: string }) => {
   return (

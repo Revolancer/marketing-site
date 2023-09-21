@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Flex } from '../layout/flex';
+import { Flex } from '@revolancer/ui/layout';
 
 export const Privacyv1_0_0 = () => {
   return (
