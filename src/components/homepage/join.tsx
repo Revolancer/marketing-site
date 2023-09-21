@@ -1,7 +1,5 @@
-import { ColumnLayout, FullWidth } from '../layout/columns';
-import { Div } from '../layout/div';
-import { Flex } from '../layout/flex';
-import { H2, H4 } from '@/components/text/headings';
+import { ColumnLayout, FullWidth, Div, Flex } from '@revolancer/ui/layout';
+import { H2, H4 } from '@revolancer/ui/text';
 import { Button } from '@revolancer/ui/buttons';
 
 export const Join = () => {

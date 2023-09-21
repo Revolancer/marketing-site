@@ -1,11 +1,11 @@
 import { Title } from '@/components/head/title';
-import { ColumnLayout, FullWidth } from '@/components/layout/columns';
-import { Flex } from '@/components/layout/flex';
+import { ColumnLayout, FullWidth } from '@revolancer/ui/layout';
+import { Flex } from '@revolancer/ui/layout';
 import { PrimaryLayout } from '@/components/layout/layout';
 import { Button } from '@revolancer/ui/buttons';
 import Image from 'next/image';
-import { H1, H3 } from '@/components/text/headings';
-import { P } from '@/components/text/text';
+import { H1, H3 } from '@revolancer/ui/text';
+import { P } from '@revolancer/ui/text';
 
 export default function FourOhFour() {
   return (

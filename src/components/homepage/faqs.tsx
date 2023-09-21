@@ -1,9 +1,6 @@
-import { P } from '@/components/text/text';
-import { ColumnLayout, FullWidth } from '../layout/columns';
-import { Div } from '../layout/div';
+import { P, H3 } from '@revolancer/ui/text';
+import { ColumnLayout, FullWidth, Flex } from '@revolancer/ui/layout';
 import FAQItem from '../layout/faq-item';
-import { Flex } from '../layout/flex';
-import { H3 } from '@/components/text/headings';
 
 export const FAQs = () => {
   return (

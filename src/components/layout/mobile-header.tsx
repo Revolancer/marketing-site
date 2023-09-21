@@ -1,17 +1,13 @@
 import { styled } from '@revolancer/ui';
 import { Logo } from './logo';
-import { ColumnLayout, FullWidth } from './columns';
-import { Flex } from './flex';
-import { Button, TertiaryButton, UnstyledLink } from '@revolancer/ui/buttons';
+import { ColumnLayout, FullWidth, Flex } from '@revolancer/ui/layout';
+import { Button, UnstyledLink } from '@revolancer/ui/buttons';
 import { useCallback, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faAngleDoubleDown,
   faAngleDoubleUp,
-  faBars,
-  faCircle,
   faCircleInfo,
-  faClose,
   faHouse,
   faQuestion,
   faRightToBracket,
