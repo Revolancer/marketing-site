@@ -21,7 +21,7 @@ export const Join = () => {
             >
               Join Our Community
             </H2>
-            <H4>Become a member today!</H4>
+            <H4>Connect with 100,000+ independents today!</H4>
             <Button href="https://app.revolancer.com/register">Join Now</Button>
           </Flex>
         </FullWidth>
