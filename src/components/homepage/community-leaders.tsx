@@ -39,7 +39,7 @@ export const CommunityLeaders = () => {
             </Div>
           </Div>
           <Flex column gap={4}>
-            <H3>
+            <H3 css={{ width: '1em' }}>
               <FontAwesomeIcon icon={faQuoteLeft} />
             </H3>
             <P>Alex Fasulo on Revolancer:</P>
