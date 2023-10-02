@@ -3,6 +3,7 @@ import * as Collapsible from '@radix-ui/react-collapsible';
 import { keyframes, styled } from '@revolancer/ui';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { Span } from '@revolancer/ui/text';
 
 const FAQItem = ({ children, label }: { children?: any; label: string }) => {
   const [open, setOpen] = React.useState(false);
@@ -11,7 +12,9 @@ const FAQItem = ({ children, label }: { children?: any; label: string }) => {
       <Collapsible.Trigger asChild>
         <FAQTrigger>
           {label}
-          <FontAwesomeIcon icon={open ? faChevronUp : faChevronDown} />
+          <Span css={{ width: '1em' }}>
+            <FontAwesomeIcon icon={open ? faChevronUp : faChevronDown} />
+          </Span>
         </FAQTrigger>
       </Collapsible.Trigger>
       <Content>{children}</Content>
