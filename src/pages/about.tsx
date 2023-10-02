@@ -63,6 +63,7 @@ export default function About() {
 
               <Image
                 src="/about/MissionImage.png"
+                priority
                 width={512}
                 height={300}
                 alt="Exchange Services, Build Portfolio, Find Work"

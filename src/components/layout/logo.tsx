@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const Logo = ({ expanded = false, color = 'default' }) => {
   var variant = '';
   if (!expanded) {
@@ -10,7 +12,12 @@ export const Logo = ({ expanded = false, color = 'default' }) => {
     variant += 'White';
   }
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img height="24px" src={`/logo/Logo${variant}.svg`} alt="Revolancer" />
+    <Image
+      height={24}
+      width={176}
+      src={`/logo/Logo${variant}.svg`}
+      alt="Revolancer"
+      priority
+    />
   );
 };
