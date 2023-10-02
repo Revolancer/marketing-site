@@ -48,6 +48,7 @@ export const Hero = () => {
             alt=""
             height="564"
             width="1440"
+            priority
             style={{
               objectFit: 'cover',
               position: 'absolute',
@@ -85,6 +86,7 @@ export const Hero = () => {
                   width={533}
                   height={400}
                   alt=""
+                  priority
                   style={{
                     flexShrink: 0,
                     minWidth: '400px',
