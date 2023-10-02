@@ -61,7 +61,7 @@ export const ExchangeShowcaseConnect = () => {
               <H5>Connect With Your Community</H5>
             </Flex>
             <P>
-              Connect with the communities of like-minded independents from all
+              Connect with more than 100,000 like-minded independents from all
               around the world.
             </P>
           </Div>
