@@ -29,6 +29,12 @@ export const Header = () => {
                 <Logo expanded />
               </UnstyledLink>
               <UnstyledLink href="/about">About Us</UnstyledLink>
+              <UnstyledLink
+                href="https://revolancer.com/magazine/"
+                target="blank"
+              >
+                Magazine
+              </UnstyledLink>
             </Flex>
             <Flex gap={6} css={{ alignItems: 'center' }}>
               <TertiaryButton

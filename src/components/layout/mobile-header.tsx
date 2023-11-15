@@ -13,6 +13,7 @@ import {
   faRightToBracket,
 } from '@fortawesome/free-solid-svg-icons';
 import { Div } from '@revolancer/ui/layout';
+import { P } from '@revolancer/ui/text';
 
 const HeaderDiv = styled('header', {
   backgroundColor: '$navy900',
@@ -36,13 +37,13 @@ export const MobileHeader = () => {
               top: '0',
               left: '0',
               zIndex: '$modal',
-              width: '100vw',
+              width: '100%',
             }
           : {
               position: 'sticky',
               top: '0',
               left: '0',
-              width: '100vw',
+              width: '100%',
               zIndex: '$1',
             }
       }
@@ -65,6 +66,7 @@ export const MobileHeader = () => {
                 e.preventDefault();
                 toggleHeader();
               }}
+              css={{ width: '$5' }}
             >
               <FontAwesomeIcon
                 icon={headerOpen ? faAngleDoubleUp : faAngleDoubleDown}
@@ -117,10 +119,6 @@ export const MobileHeader = () => {
                       toggleHeader();
                     }}
                   >
-                    <FontAwesomeIcon
-                      icon={faHouse}
-                      style={{ marginRight: '8px', width: '20px' }}
-                    />{' '}
                     Homepage
                   </UnstyledLink>
                   <UnstyledLink
@@ -129,10 +127,6 @@ export const MobileHeader = () => {
                       toggleHeader();
                     }}
                   >
-                    <FontAwesomeIcon
-                      icon={faQuestion}
-                      style={{ marginRight: '8px', width: '20px' }}
-                    />{' '}
                     How it Works
                   </UnstyledLink>
                   <UnstyledLink
@@ -141,20 +135,27 @@ export const MobileHeader = () => {
                       toggleHeader();
                     }}
                   >
-                    <FontAwesomeIcon
-                      icon={faCircleInfo}
-                      style={{ marginRight: '8px', width: '20px' }}
-                    />{' '}
                     About Us
+                  </UnstyledLink>
+                  <UnstyledLink
+                    href="https://revolancer.com/magazine/"
+                    target="blank"
+                    onClick={(e) => {
+                      toggleHeader();
+                    }}
+                  >
+                    Magazine
                   </UnstyledLink>
                 </Flex>
                 <Flex column gap={4}>
                   <UnstyledLink href="https://app.revolancer.com/login">
-                    <FontAwesomeIcon
-                      icon={faRightToBracket}
-                      style={{ marginRight: '8px', width: '20px' }}
-                    />{' '}
-                    Log in
+                    <Flex>
+                      <FontAwesomeIcon
+                        icon={faRightToBracket}
+                        style={{ marginRight: '8px', width: '20px' }}
+                      />{' '}
+                      Log in
+                    </Flex>
                   </UnstyledLink>
                   <Button href="https://app.revolancer.com/register">
                     Join Now
