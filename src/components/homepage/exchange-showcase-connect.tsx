@@ -20,12 +20,12 @@ const Columns = styled('div', {
   },
 });
 
-const StyledIcon = styled(FontAwesomeIcon, {
+const IconContainer = styled('div', {
   backgroundColor: '$neutral100',
   color: '$navy900',
   display: 'inline-block',
-  width: '18px',
-  height: '18px',
+  width: '47px',
+  height: '47px',
   padding: '15px',
   borderRadius: '100%',
 });
@@ -37,7 +37,9 @@ export const ExchangeShowcaseConnect = () => {
         <Columns>
           <Div>
             <Flex css={{ alignItems: 'center' }}>
-              <StyledIcon icon={faUsers} />
+              <IconContainer>
+                <FontAwesomeIcon icon={faUsers} />
+              </IconContainer>
               <H5>Exchange your services</H5>
             </Flex>
             <P>
@@ -47,7 +49,9 @@ export const ExchangeShowcaseConnect = () => {
           </Div>
           <Div>
             <Flex css={{ alignItems: 'center' }}>
-              <StyledIcon icon={faImages} />
+              <IconContainer>
+                <FontAwesomeIcon icon={faImages} />
+              </IconContainer>
               <H5>Showcase Your Portfolio</H5>
             </Flex>
             <P>
@@ -57,7 +61,9 @@ export const ExchangeShowcaseConnect = () => {
           </Div>
           <Div>
             <Flex css={{ alignItems: 'center' }}>
-              <StyledIcon icon={faCodeFork} />
+              <IconContainer>
+                <FontAwesomeIcon icon={faCodeFork} />
+              </IconContainer>
               <H5>Connect With Your Community</H5>
             </Flex>
             <P>
