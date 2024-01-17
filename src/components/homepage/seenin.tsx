@@ -13,6 +13,12 @@ export const SeenIn = ({ white = false }: { white?: boolean }) => {
           <Flex gap={10} wrap css={{ justifyContent: 'center' }}>
             <Image
               height={40}
+              width={159}
+              alt="Forbes"
+              src="/homepage/publications/ForbesLogo.png"
+            />
+            <Image
+              height={40}
               width={129}
               alt="Business Insider"
               src="/homepage/publications/businsider.png"
@@ -34,12 +40,6 @@ export const SeenIn = ({ white = false }: { white?: boolean }) => {
               width={93}
               alt="Insider Media"
               src="/homepage/publications/insider.png"
-            />
-            <Image
-              height={40}
-              width={244}
-              alt="Western Mail"
-              src="/homepage/publications/western.png"
             />
           </Flex>
         </FullWidth>
