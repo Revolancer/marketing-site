@@ -28,24 +28,9 @@ export const Header = () => {
               <UnstyledLink href="/">
                 <Logo expanded />
               </UnstyledLink>
-              <UnstyledLink href="/about">About Us</UnstyledLink>
-              <UnstyledLink
-                href="https://revolancer.com/magazine/"
-                target="blank"
-              >
-                Magazine
-              </UnstyledLink>
             </Flex>
             <Flex gap={6} css={{ alignItems: 'center' }}>
-              <TertiaryButton
-                href="https://app.revolancer.com/login"
-                css={{ color: '$white' }}
-              >
-                Log in
-              </TertiaryButton>
-              <Button href="https://app.revolancer.com/register">
-                Join Now
-              </Button>
+              <Button href="https://revolancer.com/magazine">Magazine</Button>
             </Flex>
           </Flex>
         </FullWidth>

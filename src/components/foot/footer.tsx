@@ -75,42 +75,19 @@ export const Footer = () => {
                   <FontAwesomeIcon icon={faTiktok} />
                 </UnstyledLink>
               </Flex>
-              <P>&copy;2023 REVOLANCER LTD</P>
+              <P>&copy;2024 REVOLANCER LTD</P>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>Company</P>
-              <UnstyledLink href="/">Homepage</UnstyledLink>
-              <UnstyledLink href="/#works">How it Works</UnstyledLink>
-              <UnstyledLink href="/about">About Us</UnstyledLink>
-            </Flex>
-            <Flex column gap={2}>
-              <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>Resources</P>
-              <UnstyledLink href="/magazine">Magazine</UnstyledLink>
-              <UnstyledLink href="https://support.revolancer.com/">
-                Support
-              </UnstyledLink>
-              <UnstyledLink
-                href="https://status.revolancer.com/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-              >
-                Status
-              </UnstyledLink>
-            </Flex>
-            <Flex column gap={2}>
-              <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>Legal</P>
               <UnstyledLink href="/terms">Terms &amp; Conditions</UnstyledLink>
-              <UnstyledLink href="/privacy">Privacy Policy</UnstyledLink>
-              <UnstyledLink href="/cookies">Cookie Policy</UnstyledLink>
-              <UnstyledLink href="/impressum">Impressum</UnstyledLink>
             </Flex>
             <Flex column gap={2}>
-              <P css={{ fontWeight: '$bold', fontSize: '$h5' }}>
-                Join Revolancer Today
-              </P>
-              <Button href="https://app.revolancer.com/register">
-                Join Now
-              </Button>
+              <UnstyledLink href="/privacy">Privacy Policy</UnstyledLink>
+            </Flex>
+            <Flex column gap={2}>
+              <UnstyledLink href="/cookies">Cookie Policy</UnstyledLink>
+            </Flex>
+            <Flex column gap={2}>
+              <UnstyledLink href="/impressum">Impressum</UnstyledLink>
             </Flex>
           </FootColumns>
         </FullWidth>

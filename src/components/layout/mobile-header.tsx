@@ -113,52 +113,8 @@ export const MobileHeader = () => {
                 }}
               >
                 <Flex column gap={4}>
-                  <UnstyledLink
-                    href="/"
-                    onClick={(e) => {
-                      toggleHeader();
-                    }}
-                  >
-                    Homepage
-                  </UnstyledLink>
-                  <UnstyledLink
-                    href="/#works"
-                    onClick={(e) => {
-                      toggleHeader();
-                    }}
-                  >
-                    How it Works
-                  </UnstyledLink>
-                  <UnstyledLink
-                    href="/about"
-                    onClick={(e) => {
-                      toggleHeader();
-                    }}
-                  >
-                    About Us
-                  </UnstyledLink>
-                  <UnstyledLink
-                    href="https://revolancer.com/magazine/"
-                    target="blank"
-                    onClick={(e) => {
-                      toggleHeader();
-                    }}
-                  >
+                  <Button href="https://revolancer.com/magazine">
                     Magazine
-                  </UnstyledLink>
-                </Flex>
-                <Flex column gap={4}>
-                  <UnstyledLink href="https://app.revolancer.com/login">
-                    <Flex>
-                      <FontAwesomeIcon
-                        icon={faRightToBracket}
-                        style={{ marginRight: '8px', width: '20px' }}
-                      />{' '}
-                      Log in
-                    </Flex>
-                  </UnstyledLink>
-                  <Button href="https://app.revolancer.com/register">
-                    Join Now
                   </Button>
                 </Flex>
               </Flex>
